@@ -1,0 +1,43 @@
+{
+  "name": "imooc-datav-libs-dev",
+  "version": "1.0.0",
+  "description": "imooc datav components library",
+  "main": "dist/imooc.datav.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup -wc rollup.config.dev.js",
+    "build": "rollup -c rollup.config.dev.js"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "vue",
+    "datav"
+  ],
+  "author": "Dish <gh3262921418@163.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-runtime": "^7.16.4",
+    "@babel/preset-env": "^7.15.8",
+    "@vue/compiler-sfc": "^3.2.20",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^7.19.1",
+    "external": "^1.0.0",
+    "rollup": "^2.58.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^4.0.1",
+    "sass": "^1.43.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "rollup-plugin-vue": "^6.0.0-beta.6",
+    "sam-test-data": "^0.0.5",
+    "uuid": "^8.3.2"
+  }
+}
